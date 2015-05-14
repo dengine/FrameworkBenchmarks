@@ -5,5 +5,6 @@ sudo apt-get update && sudo apt-get -y --allow-unauthenticated install --reinsta
 sudo apt-get install -qq -y dub dmd-bin
 sudo apt-get install -qq -y libevent-dev libssl-dev
 sudo apt-get install -qq -y g++ gcc-multilib xdg-utils
+
 cd $FWROOT/frameworks/D/vibed
-dub build --build-mode=singleFile
+dub build
